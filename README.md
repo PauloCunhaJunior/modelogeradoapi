@@ -77,7 +77,7 @@ A rota principal da API apenas informa que o serviço está funcionando.
 ## GET /
 
 Exemplo de retorno:
-<h1>API CIFAR-10</h1>
+<h6>API CIFAR-10</h6>
 <p>API funcionando!</p>
 
 ## Rota de Previsão
