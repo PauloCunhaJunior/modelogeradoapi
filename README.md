@@ -57,10 +57,12 @@ Imagem enviada → API Flask → Pré-processamento → Modelo CNN (.h5) → Res
 
 ## Estrutura Básica
 
-- modelo_cifar10.h5       # Modelo treinado
-- imagens/                # Pasta com imagens para teste
-- notebook.ipynb          # Código executado no Google Colab
-- README.md               # Documentação do projeto
+```python
+modelo_cifar10.h5       # Modelo treinado
+imagens/                # Pasta com imagens para teste
+notebook.ipynb          # Código executado no Google Colab
+README.md               # Documentação do projeto
+```
 
 ## Como Executar no Google Colab
 
@@ -80,7 +82,7 @@ A rota principal da API apenas informa que o serviço está funcionando.
 Exemplo de retorno:
 
 ```python
-<h6>API CIFAR-10</h6>
+<h1>API CIFAR-10</h1>
 <p>API funcionando!</p>
 ```
 
